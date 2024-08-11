@@ -1,6 +1,6 @@
 # UML Diagram
 
-<img src="D:\Raaz\Dev stuff\Interview\Sportradar\TicketReportingService.png"/>
+![TicketService](https://github.com/user-attachments/assets/099f1150-afb1-424e-8d6c-d673407cf337)
 
 # OpenAPI Specification for the REST APIs
 
