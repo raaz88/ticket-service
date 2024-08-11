@@ -1,0 +1,36 @@
+{
+  "$schema" : "http://json-schema.org/draft-07/schema#",
+  "type" : "object",
+  "properties" : {
+    "bookmaker" : {
+      "type" : "integer",
+      "description" : "Identifier"
+    },
+    "currency" : {
+      "type" : "string",
+      "description" : "Currency code"
+    },
+    "game" : {
+      "type" : "string",
+      "description" : "Game Identifier"
+    },
+    "stake" : {
+      "type" : "number",
+      "description" : "Stake (decimal)"
+    },
+    "status" : {
+      "type" : "string",
+      "enum" : [ "PLACED", "CANCELLED", "REJECTED" ],
+      "description" : "Ticket status. End states: MONETISED, CANCELLED, REJECTED"
+    },
+    "ticket_id" : {
+      "type" : "string",
+      "description" : "Ticket id (ULID)"
+    },
+    "total_return" : {
+      "type" : "number",
+      "description" : "Total return (decimal)"
+    }
+  },
+  "required" : [ "bookmaker", "currency", "game", "stake", "status", "ticket_id" ]
+}
