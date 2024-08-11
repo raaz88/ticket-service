@@ -21,7 +21,6 @@
 # CostMetrics
 
     Contains fields numberOfTickets, turnover, profitLoss & margin to be returned int the response. 
-    Formulae to calculate turnover, profitLoss & margin based on assumptions, can be modified as required. 
 
 # Dockerfile
 
